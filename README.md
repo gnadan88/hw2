@@ -1,4 +1,4 @@
-# hw2
+# 6주차 과제
 ## P3.1
 **(a) state variable 설정**  
 * $x_{1}(t)=y(t)$  
