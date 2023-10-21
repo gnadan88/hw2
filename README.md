@@ -180,12 +180,12 @@ $$\mathbf{A}=\begin{bmatrix} 1&1&-1 \\
 \mathbf{B}=\begin{bmatrix} 0 \\
 0 \\
 4\end{bmatrix},
-\mathbf{C}=\begin{bmatrix} 0&0&4 \end{bmatrix},
+\mathbf{C}=\begin{bmatrix} 1&0&0 \end{bmatrix},
 \mathbf{D}=\mathbf{0}$$
 
 transfer function $G(s)$는 아래와 같은 식으로 구할 수 있고  
 
-$G(s)=\dfrac{Y(s)}{U(s)}=\mathbf{C}\mathbf{\Phi}(s)+\mathbf{D}$  
+$G(s)=\dfrac{Y(s)}{U(s)}=\mathbf{C}\mathbf{\Phi}(s)\mathbf{B}+\mathbf{D}$  
 
 이를 matlab으로 구현해 보면  
 ```matlab
