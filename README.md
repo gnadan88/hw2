@@ -32,7 +32,7 @@ KVL에 의해 아래와 같은 두 개의 1차 미분방정식이 구해진다.
   $L\dfrac{dx_{1}(t)}{dt}=x_{2}(t)+v_{1}(t)-v_{2}(t)$  
   $\dfrac{dx_{1}(t)}{dt}=\dfrac{1}{L}x_{2}(t)+\dfrac{1}{L}v_{1}(t)-\dfrac{1}{L}v_{2}(t)$
 
-* $Rx_{1}(t)-RC\dfrac{dx_{2}}{dt}+x_{2}(t)-v_{2}(t)=0$  
+* $Rx_{1}(t)+RC\dfrac{dx_{2}}{dt}+x_{2}(t)-v_{2}(t)=0$  
   $RC\dfrac{dx_{2}(t)}{dt}=-Rx_{1}(t)-x_{2}(t)+v_{2}(t)$  
   $\dfrac{dx_{2}(t)}{dt}=-\dfrac{1}{C}x_{1}(t)-\dfrac{1}{RC}x_{2}(t)+\dfrac{1}{RC}v_{2}(t)$
 
